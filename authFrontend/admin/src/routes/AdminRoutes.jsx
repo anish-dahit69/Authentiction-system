@@ -1,4 +1,4 @@
-import EditPage from "../pages/EditPAge";
+import EditPage from "../pages/EditPage";
 import ManageUsers from "../pages/ManageUsers";
 import Overview from "../pages/Overview";
 import Users from "../pages/Users";
