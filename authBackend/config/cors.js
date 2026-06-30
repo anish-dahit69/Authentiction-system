@@ -1,11 +1,11 @@
 export const corsOptions = {
   origin:
-    process.env.NODE_ENV === "production"
-      ? "https://yourdomain.com" // Production URL
-      : [
-          "https://authentiction-system-frontent-clien.vercel.app/",
-          "https://authentiction-system-admin-frontend-zeta.vercel.app/",
-        ], // Development (Vite)
+    process.env.NODE_ENV ===
+    "production"[
+      ("https://client-authentiction-system-sigma.vercel.app/",
+      "https://admin-authentiction-system-blue.vercel.app/admin")
+    ],
+
   credentials: true, // Allow cookies
   optionsSuccessStatus: 200,
 };
